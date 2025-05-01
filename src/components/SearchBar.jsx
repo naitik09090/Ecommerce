@@ -51,6 +51,7 @@ const SearchBar = () => {
 
       <div>
         {
+<<<<<<< HEAD
           pageNumbers.map(num => (
             <button className='btn'
               key={num}
@@ -58,6 +59,15 @@ const SearchBar = () => {
             >
 
               {num}
+=======
+          pageNumbers.map(number => (
+            <button className='btn'
+              key={number}
+              onClick={() => setCurrentPage(number)}
+            >
+
+              {number}
+>>>>>>> 0b5f988629c6d358a18ccf86879c65cb97093826
             </button>
           ))
         }
